@@ -23,3 +23,4 @@ TARGET_TEGRA_CAMERA ?= none
 TARGET_TEGRA_DOLBY  ?= video
 
 $(call inherit-product, device/nvidia/foster/device.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
